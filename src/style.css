@@ -8,9 +8,11 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    --headerAndFooterBg-Color: black;
 }
 
 header{
-    background-color: black;
+    background-color: var(--headerAndFooterBg-Color);
     min-height: 425px;
 }

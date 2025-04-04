@@ -9,3 +9,8 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: black;
+    min-height: 425px;
+}

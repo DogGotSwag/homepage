@@ -15,4 +15,16 @@ body{
 header{
     background-color: var(--headerAndFooterBg-Color);
     min-height: 425px;
+    display: grid;
+    grid: auto / 1fr;
+    align-items: center;
+
+    padding: 40px 50px;
+}
+
+
+header .headerContainer{
+    border: 1px solid blue;
+    width: 100%;
+    height: 100%;
 }

@@ -14,17 +14,23 @@ body{
 
 header{
     background-color: var(--headerAndFooterBg-Color);
-    min-height: 425px;
-    display: grid;
-    grid: auto / 1fr;
-    align-items: center;
-
+    height: 90vh;
     padding: 40px 50px;
+
+    display: flex;
+
 }
 
+img{
+    object-fit: cover;
+}
 
-header .headerContainer{
-    border: 1px solid blue;
-    width: 100%;
-    height: 100%;
+header div {
+   border: 1px solid whitesmoke;
+   flex: 1;
+
+   margin-top: 40px;
+   margin-bottom: 40px ;
+
+   color: aliceblue;
 }

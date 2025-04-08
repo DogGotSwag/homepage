@@ -60,3 +60,6 @@ header .background-slant{
 
 }
 
+main{
+    padding: 80px var(--sides-padding) 80px var(--sides-padding);
+}

@@ -1,7 +1,9 @@
 html,
 body{
-    width: 100%;
+    width: 100vw;
     height: 100%;
+
+    overflow: hidden;
 }
 
 *{
@@ -13,24 +15,45 @@ body{
 }
 
 header{
-    background-color: var(--headerAndFooterBg-Color);
+    position: relative;
     height: 90vh;
     padding: 40px 50px;
 
     display: flex;
 
+    width: 100vw;
 }
 
-img{
+header img{
     object-fit: cover;
+    z-index: 1;
 }
 
 header div {
-   border: 1px solid whitesmoke;
    flex: 1;
 
    margin-top: 40px;
    margin-bottom: 40px ;
 
    color: aliceblue;
+   background-color: aqua;
+
+   z-index: 1;
+}
+
+header .background-slant{
+
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--headerAndFooterBg-Color);
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+
+    position: absolute;
+    top: -40px;
+    right: 0px;
+
+
 }

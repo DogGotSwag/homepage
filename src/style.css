@@ -63,3 +63,14 @@ header .background-slant{
 main{
     padding: 80px var(--sides-padding) 80px var(--sides-padding);
 }
+
+main .projectArea{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+main .projectBox{
+    min-height: 40px;
+    border: 1px solid black;
+}

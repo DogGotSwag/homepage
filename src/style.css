@@ -74,3 +74,13 @@ main .projectBox{
     min-height: 40px;
     border: 1px solid black;
 }
+
+footer{
+    padding: 40px var(--sides-padding);
+
+    padding-bottom: 20px;
+}
+
+footer div{
+    border: 1px solid black;
+}

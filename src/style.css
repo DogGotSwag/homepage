@@ -31,7 +31,7 @@ header img{
     z-index: 1;
 }
 
-header div {
+header > div {
    flex: 1;
 
    margin-top: 40px;
@@ -41,6 +41,11 @@ header div {
    background-color: aqua;
 
    z-index: 1;
+}
+
+header .aboutMeBox{
+    margin-top: 80px;
+    margin-bottom: 80px ;
 }
 
 header .background-slant{
@@ -66,13 +71,13 @@ main{
 
 main .projectArea{
     display: grid;
-    column-gap: 30px;
-    row-gap: 40px;
+    column-gap: 65px;
+    row-gap: 75px;
     grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
 }
 
 main .projectBox{
-    min-height: 40px;
+    min-height: 80px;
     border: 1px solid black;
 }
 

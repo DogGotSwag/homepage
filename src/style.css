@@ -19,7 +19,7 @@ body{
 
 header{
     position: relative;
-    height: 90vh;
+    height: 109vh;
     padding: var(--topBottom) var(--sides-padding);
 
     display: flex;
@@ -57,7 +57,7 @@ header .background-slant{
     height: 100%;
 
     background-color: var(--headerAndFooterBg-Color);
-    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
 
     position: absolute;
     top: -40px;

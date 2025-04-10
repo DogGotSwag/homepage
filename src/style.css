@@ -77,10 +77,19 @@ main .projectBox{
 
 footer{
     padding: 40px var(--sides-padding);
-
     padding-bottom: 20px;
+
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto 1fr;
+    
 }
 
 footer div{
     border: 1px solid black;
+    height: 60vh;
+}
+
+footer div:first-child{
+    width: 320px;
 }

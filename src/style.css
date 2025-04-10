@@ -19,7 +19,7 @@ body{
 header{
     position: relative;
     height: 90vh;
-    padding: 40px var(--sides-padding);
+    padding: 80px var(--sides-padding);
 
     display: flex;
 

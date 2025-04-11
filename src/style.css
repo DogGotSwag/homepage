@@ -11,7 +11,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 
-  --headerAndFooterBg-Color: black;
+  --headerAndFooterBg-Color: rgba(8,145,178,255);
   --sides-padding: 120px;
   --topBottom: 80px;
 }

@@ -1,102 +1,98 @@
 html,
-body{
-    width: 100%;
-    height: 100%;
+body {
+  width: 100%;
+  height: 100%;
 
-    overflow-x: hidden;
-
+  overflow-x: hidden;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    --headerAndFooterBg-Color: black;
-    --sides-padding: 120px;
-    --topBottom: 80px;
+  --headerAndFooterBg-Color: black;
+  --sides-padding: 120px;
+  --topBottom: 80px;
 }
 
-header{
-    position: relative;
-    height: 109vh;
-    padding: var(--topBottom) var(--sides-padding);
+header {
+  position: relative;
+  height: 109vh;
+  padding: var(--topBottom) var(--sides-padding);
 
-    display: flex;
-
-    width: 100vw;
+  display: flex;
 }
 
-header img{
-    object-fit: cover;
-    z-index: 1;
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 header > div {
-   flex: 1;
-
-   margin-top: 40px;
-   margin-bottom: 40px ;
-
-   color: aliceblue;
-   background-color: aqua;
-
-   z-index: 1;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: aliceblue;
+  background-color: aqua;
+  z-index: 1;
 }
 
-header .aboutMeBox{
-    margin-top: 80px;
-    margin-bottom: 80px ;
+header .imgContainer {
+  flex: 4;
 }
 
-header .background-slant{
-
-    z-index: 0;
-
-    width: 100%;
-    height: 100%;
-
-    background-color: var(--headerAndFooterBg-Color);
-    clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
-
-    position: absolute;
-    top: -40px;
-    right: 0px;
-
-
+header .aboutMeBox {
+  flex: 6;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
-main{
-    padding: 80px var(--sides-padding) 80px var(--sides-padding);
+header .background-slant {
+  z-index: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--headerAndFooterBg-Color);
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
+
+  position: absolute;
+  top: -40px;
+  right: 0px;
 }
 
-main .projectArea{
-    display: grid;
-    column-gap: 65px;
-    row-gap: 75px;
-    grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+main {
+  padding: 80px var(--sides-padding) 80px var(--sides-padding);
 }
 
-main .projectBox{
-    min-height: 80px;
-    border: 1px solid black;
+main .projectArea {
+  display: grid;
+  column-gap: 65px;
+  row-gap: 75px;
+  grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
 }
 
-footer{
-    min-height: 101vh;
-    border-top: 1px solid black;
-    padding: var(--topBottom) var(--sides-padding);
-
-    display: grid;
-    gap: 30px;
-    grid-template-columns: auto 1fr;
-    
+main .projectBox {
+  min-height: 80px;
+  border: 1px solid black;
 }
 
-footer div{
-    border: 1px solid black;
+footer {
+  min-height: 101vh;
+  border-top: 1px solid black;
+  padding: var(--topBottom) var(--sides-padding);
+
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto 1fr;
 }
 
-footer div:first-child{
-    width: 320px;
+footer div {
+  border: 1px solid black;
+}
+
+footer div:first-child {
+  width: 320px;
 }

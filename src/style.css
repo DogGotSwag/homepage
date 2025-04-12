@@ -98,7 +98,15 @@ main .projectBox {
 }
 
 .projectInfo *{
-  border: 1px solid red;
+}
+
+.projectInfo .titleAndLinks{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.titleAndLinks h2{
+  flex: 1;
 }
 
 

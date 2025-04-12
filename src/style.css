@@ -32,7 +32,7 @@ header img {
   object-position: center;
 }
 
-header > div {
+header .imgContainer, .aboutMeBox  {
   margin-top: 40px;
   margin-bottom: 40px;
   color: aliceblue;
@@ -59,7 +59,7 @@ header .background-slant {
   clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
 
   position: absolute;
-  top: -40px;
+  top: 0px;
   right: 0px;
 }
 

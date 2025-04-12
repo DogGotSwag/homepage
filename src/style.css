@@ -94,6 +94,11 @@ main .projectBox {
 
 .projectInfo{
   flex: 2;
+  padding: 20px 40px;
+}
+
+.projectInfo *{
+  border: 1px solid red;
 }
 
 

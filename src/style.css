@@ -111,8 +111,8 @@ main .projectBox {
 
 
 footer {
+  background-color: var(--headerAndFooterBg-Color);
   min-height: 101vh;
-  border-top: 1px solid black;
   padding: var(--topBottom) var(--sides-padding);
 
   display: grid;
@@ -120,9 +120,6 @@ footer {
   grid-template-columns: 4fr 7fr;
 }
 
-footer div {
-  border: 1px solid black;
-}
 
 footer .footerPicBox img{
   width: 100%;

@@ -116,14 +116,11 @@ footer {
   padding: var(--topBottom) var(--sides-padding);
 
   display: grid;
-  gap: 30px;
-  grid-template-columns: auto 1fr;
+  gap: 60px;
+  grid-template-columns: 4fr 7fr;
 }
 
 footer div {
   border: 1px solid black;
 }
 
-footer div:first-child {
-  width: 320px;
-}

@@ -74,10 +74,6 @@ header .background-slant {
   background-color: var(--headerAndFooterBg-Color);
   clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
 
-  position: absolute;
-  top: 0px;
-  right: 0px;
-
 }
 
 main {

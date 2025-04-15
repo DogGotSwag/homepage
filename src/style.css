@@ -11,10 +11,10 @@ body {
   padding: 0;
   box-sizing: border-box;
 
-  --headerAndFooterBg-Color: rgba(8,145,178,255);
+  --headerAndFooterBg-Color: rgba(8, 145, 178, 255);
   --sides-padding: 120px;
   --topBottom: 80px;
-  --whiteColor: rgba(255,255,255,255);
+  --whiteColor: rgba(255, 255, 255, 255);
 }
 
 header {
@@ -32,7 +32,8 @@ header img {
   object-position: center;
 }
 
-header .imgContainer, .aboutMeBox  {
+header .imgContainer,
+.aboutMeBox {
   margin-top: 10px;
   margin-bottom: 10px;
   color: black;
@@ -43,6 +44,10 @@ header .imgContainer, .aboutMeBox  {
 
 header .imgContainer {
   flex: 4;
+  z-index: 2;
+
+  box-shadow: 5px 5px 24px -12px black;
+
 }
 
 header .aboutMeBox {
@@ -51,16 +56,14 @@ header .aboutMeBox {
   margin-bottom: 80px;
 
   box-shadow: 5px 5px 19px -10px black;
-
 }
 
-header .slant-container{
-
+header .slant-container {
   position: absolute;
   top: 0px;
   right: 0px;
 
-  filter: drop-shadow(0px 10px 5px rgba(0,0,0,0.1));
+  filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.1));
   width: 100%;
   height: 100%;
 }
@@ -73,7 +76,6 @@ header .background-slant {
 
   background-color: var(--headerAndFooterBg-Color);
   clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
-
 }
 
 main {
@@ -97,31 +99,29 @@ main .projectBox {
 
   align-items: stretch;
   justify-content: stretch;
-  
 }
 
-.projectScreenShot{
+.projectScreenShot {
   background-color: var(--headerAndFooterBg-Color);
   flex: 3;
 }
 
-.projectInfo{
+.projectInfo {
   flex: 2;
   padding: 20px 40px;
 }
 
-.projectInfo *{
+.projectInfo * {
 }
 
-.projectInfo .titleAndLinks{
+.projectInfo .titleAndLinks {
   display: flex;
   margin-bottom: 20px;
 }
 
-.titleAndLinks h2{
+.titleAndLinks h2 {
   flex: 1;
 }
-
 
 footer {
   background-color: var(--headerAndFooterBg-Color);
@@ -133,12 +133,10 @@ footer {
   grid-template-columns: 4fr 7fr;
 }
 
-
-footer .footerPicBox img{
+footer .footerPicBox img {
   width: 100%;
   height: 100%;
 
   object-fit: cover;
   object-position: center;
 }
-

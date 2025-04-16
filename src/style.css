@@ -60,6 +60,9 @@ h1,h2{
 h1{
   font-size: clamp(40px, 4vw, 65px);
 }
+h2{
+  font-size: clamp(25px, 3vw, 31px);
+}
 
 p{
   font-family: "Roboto", sans-serif;

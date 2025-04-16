@@ -47,38 +47,39 @@ header .imgContainer {
   z-index: 2;
 
   box-shadow: 5px 5px 24px -12px black;
-
 }
 
-h1,h2{
+h1,
+h2 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-h1{
+h1 {
   font-size: clamp(40px, 4vw, 65px);
 }
-h2{
+h2 {
   font-size: clamp(25px, 3vw, 31px);
 }
 
-p{
+p {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "width" 100;
+  font-variation-settings: "width" 100;
+  color: rgba(86, 86, 86, 255);
 }
 
 .aboutMeBox p,
-.contactInfo p{
+.contactInfo p {
   font-size: clamp(20px, 2vw, 30px);
+
 }
 
-.projectArea p{
+.projectArea p {
   font-size: clamp(18px, 2vw, 20px);
 }
 
@@ -94,11 +95,11 @@ header .aboutMeBox {
   box-shadow: 5px 5px 19px -10px black;
 }
 
-.aboutMeBox p{
+.aboutMeBox p {
   line-height: 1.5em;
 }
 
-.aboutMeBox h1{
+.aboutMeBox h1 {
   margin-bottom: 40px;
 }
 
@@ -175,6 +176,11 @@ footer {
   display: grid;
   gap: 60px;
   grid-template-columns: 4fr 7fr;
+
+}
+
+footer .contactInfo *{
+  color: var(--whiteColor);
 }
 
 footer .footerPicBox img {

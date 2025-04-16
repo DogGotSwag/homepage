@@ -78,6 +78,10 @@ p{
   font-size: clamp(20px, 2vw, 30px);
 }
 
+.projectArea p{
+  font-size: clamp(18px, 2vw, 20px);
+}
+
 header .aboutMeBox {
   flex: 6;
   margin-top: 80px;

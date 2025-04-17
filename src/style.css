@@ -198,6 +198,15 @@ footer .contactInfo * {
   color: var(--whiteColor);
 }
 
+footer .footerIcons{
+  display: flex;
+  gap: 40px;
+}
+
+footer .footerIcons svg{
+  width: 70px;
+}
+
 footer .footerPicBox img {
   width: 100%;
   height: 100%;

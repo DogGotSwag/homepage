@@ -42,6 +42,12 @@ header .imgContainer,
   background-color: var(--whiteColor);
 }
 
+header .icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
 header .imgContainer {
   flex: 4;
   z-index: 2;
@@ -76,7 +82,6 @@ p {
 .aboutMeBox p,
 .contactInfo p {
   font-size: clamp(20px, 2vw, 30px);
-
 }
 
 .projectArea p {
@@ -91,24 +96,27 @@ header .aboutMeBox {
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 80px;
+  padding-bottom: 40px;
 
   box-shadow: 5px 5px 19px -10px black;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutMeBox p {
   line-height: 1.5em;
+  flex: 1;
 }
 
 .aboutMeBox h1 {
   margin-bottom: 40px;
 }
 
-.aboutMeBox 
-svg{
+.aboutMeBox svg {
   width: 50px;
 }
-.projectArea 
-svg{
+.projectArea svg {
   height: 35px;
 }
 
@@ -184,10 +192,9 @@ footer {
   display: grid;
   gap: 60px;
   grid-template-columns: 4fr 7fr;
-
 }
 
-footer .contactInfo *{
+footer .contactInfo * {
   color: var(--whiteColor);
 }
 

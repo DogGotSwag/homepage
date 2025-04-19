@@ -216,6 +216,14 @@ footer .contactInfo * {
   color: var(--whiteColor);
 }
 
+.contactInfo h1 {
+  margin-bottom: 25px;
+}
+
+.contactInfo .spacedP{
+  margin-bottom: 45px;
+}
+
 footer .footerIcons{
   display: flex;
   gap: 40px;

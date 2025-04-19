@@ -164,8 +164,21 @@ main .projectBox {
 }
 
 .projectScreenShot {
+  position: relative;
   background-color: var(--headerAndFooterBg-Color);
   flex: 3;
+
+  text-align: center;
+}
+
+.projectScreenShot .textBehindImg{
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: var(--whiteColor);
 }
 
 .projectInfo {

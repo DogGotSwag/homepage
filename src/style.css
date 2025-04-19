@@ -224,9 +224,16 @@ footer .contactInfo * {
   margin-bottom: 45px;
 }
 
-.contactInfo div{
+.contactInfo .info{
   display: flex;
   align-items: center;
+}
+
+.info:nth-child(odd){
+  margin-bottom: 20px;
+}
+.info:nth-child(even){
+  margin-bottom: 40px;
 }
 
 .contactInfo div > svg{

@@ -144,6 +144,10 @@ main {
   padding: 80px var(--sides-padding) 80px var(--sides-padding);
 }
 
+main > h1{
+  margin-bottom: 15px;
+}
+
 main .projectArea {
   display: grid;
   column-gap: 65px;

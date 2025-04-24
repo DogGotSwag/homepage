@@ -278,3 +278,26 @@ footer .footerPicBox img {
   object-fit: cover;
   object-position: center;
 }
+
+
+@media (min-width:500px) {
+  header{
+    display: block;
+  }
+
+  header > *{
+    position: relative;
+  }
+
+  header .imgContainer{
+    width: 50%;
+    float: left;
+    shape-outside:margin-box;
+    margin-right:10px;
+  }
+
+  header .aboutMeBox{
+    width: 100%;
+    display: block;
+  }
+}

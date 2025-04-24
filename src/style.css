@@ -46,7 +46,7 @@ header .imgContainer,
   background-color: var(--whiteColor);
 }
 
-header .textBehindImg{
+header .textBehindImg {
   position: absolute;
 
   top: 93%;
@@ -57,8 +57,6 @@ header .textBehindImg{
   white-space: nowrap;
 
   font-size: clamp(20px, 4vw, 85px);
-
-
 }
 
 header .icons {
@@ -165,7 +163,7 @@ main {
   padding-bottom: 160px;
 }
 
-main > h1{
+main > h1 {
   margin-bottom: 15px;
 }
 
@@ -196,7 +194,7 @@ main .projectBox {
   text-align: center;
 }
 
-.projectScreenShot .textBehindImg{
+.projectScreenShot .textBehindImg {
   position: absolute;
 
   top: 50%;
@@ -240,34 +238,34 @@ footer .contactInfo * {
   margin-bottom: 25px;
 }
 
-.contactInfo .spacedP{
+.contactInfo .spacedP {
   margin-bottom: 50px;
 }
 
-.contactInfo .info{
+.contactInfo .info {
   display: flex;
   align-items: center;
 }
 
-.info:nth-child(odd){
+.info:nth-child(odd) {
   margin-bottom: 20px;
 }
-.info:nth-child(even){
+.info:nth-child(even) {
   margin-bottom: 40px;
 }
 
-.contactInfo div > svg{
+.contactInfo div > svg {
   height: 46px;
   color: var(--whiteColor);
   margin-right: 20px;
 }
 
-footer .footerIcons{
+footer .footerIcons {
   display: flex;
   gap: 40px;
 }
 
-footer .footerIcons svg{
+footer .footerIcons svg {
   width: 70px;
 }
 
@@ -279,29 +277,35 @@ footer .footerPicBox img {
   object-position: center;
 }
 
-
 @media (min-width: 500px) {
-  header{
+  header {
     display: block;
-    --tabletMargin:100px;
+    --tabletMargin: 100px;
     padding-left: var(--tabletMargin);
     padding-right: var(--tabletMargin);
     padding-top: 40px;
   }
 
-  header > *{
+  header > * {
     position: relative;
   }
 
-  header .imgContainer{
+  header .imgContainer {
     width: calc(50% + 60px);
     float: left;
-    shape-outside:margin-box;
-    margin-right:10px;
+    shape-outside: margin-box;
+    margin-right: 10px;
     margin-left: -60px;
   }
 
-  header .aboutMeBox{
+  .imgContainer .textBehindImg {
+    top: 10%;
+    left: 141%;
+    color: black;
+    font-size: clamp(20px, 7vw, 105px);
+  }
+
+  header .aboutMeBox {
     margin-top: 120px;
     width: 100%;
     display: block;

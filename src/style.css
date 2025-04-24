@@ -283,6 +283,10 @@ footer .footerPicBox img {
 @media (min-width:500px) {
   header{
     display: block;
+    --tabletMargin:100px;
+    padding-left: var(--tabletMargin);
+    padding-right: var(--tabletMargin);
+    padding-top: 40px;
   }
 
   header > *{

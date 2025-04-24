@@ -280,7 +280,7 @@ footer .footerPicBox img {
 }
 
 
-@media (min-width:500px) {
+@media (min-width: 500px) {
   header{
     display: block;
     --tabletMargin:100px;
@@ -294,10 +294,11 @@ footer .footerPicBox img {
   }
 
   header .imgContainer{
-    width: 50%;
+    width: calc(50% + 60px);
     float: left;
     shape-outside:margin-box;
     margin-right:10px;
+    margin-left: -60px;
   }
 
   header .aboutMeBox{

@@ -318,4 +318,8 @@ footer .footerPicBox img {
     margin-bottom: 20px;
     font-size: clamp(40px, 4vw + 5px, 45px);
   }
+
+  header .icons{
+    display: none;
+  }
 }

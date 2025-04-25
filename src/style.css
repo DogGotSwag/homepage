@@ -350,4 +350,8 @@ footer .footerPicBox img {
     margin-bottom: 10px;
   }
 
+  .projectInfo p {
+    font-size: clamp(16px, 1vw, 22px);
+  }
+
 }

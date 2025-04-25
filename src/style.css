@@ -311,4 +311,8 @@ footer .footerPicBox img {
     display: block;
     padding-right: 20px;
   }
+
+  header .aboutMeBox h1{
+    text-align: center;
+  }
 }

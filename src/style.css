@@ -276,7 +276,7 @@ footer .footerPicBox img {
   object-position: center;
 }
 
-@media (min-width: 500px) and (max-width:1000px) {
+@media (min-width: 500px) and (max-width: 1000px) {
   header {
     display: block;
     --tabletMargin: 100px;
@@ -291,7 +291,7 @@ footer .footerPicBox img {
     position: relative;
   }
 
-  header .slant-container{
+  header .slant-container {
     max-height: 100vh;
   }
 
@@ -317,19 +317,19 @@ footer .footerPicBox img {
     padding-right: 20px;
   }
 
-  header .aboutMeBox h1{
+  header .aboutMeBox h1 {
     text-align: center;
     margin-top: 45px;
     margin-bottom: 20px;
     font-size: clamp(40px, 4vw + 5px, 45px);
   }
 
-  header .icons{
+  header .icons {
     display: none;
   }
 
-  main{
-    --sides:80px;
+  main {
+    --sides: 80px;
     padding: 0px var(--sides) 0px var(--sides);
   }
 
@@ -337,16 +337,15 @@ footer .footerPicBox img {
     padding: 10px 25px;
   }
 
-  h2{
+  h2 {
     font-size: clamp(16px, 3vw, 20px);
-  } 
+  }
 
   .projectArea svg {
     height: 25px;
   }
 
-
-  main .projectInfo .titleAndLinks{
+  main .projectInfo .titleAndLinks {
     margin-bottom: 10px;
   }
 
@@ -354,4 +353,9 @@ footer .footerPicBox img {
     font-size: clamp(16px, 1vw, 22px);
   }
 
+  main .projectArea {
+    column-gap: 40px;
+    row-gap: 60px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }

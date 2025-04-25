@@ -345,4 +345,9 @@ footer .footerPicBox img {
     height: 25px;
   }
 
+
+  main .projectInfo .titleAndLinks{
+    margin-bottom: 10px;
+  }
+
 }

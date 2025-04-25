@@ -356,6 +356,6 @@ footer .footerPicBox img {
   main .projectArea {
     column-gap: 40px;
     row-gap: 60px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   }
 }

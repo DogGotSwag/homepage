@@ -159,8 +159,7 @@ header .background-slant {
 }
 
 main {
-  padding: 80px var(--sides-padding) 80px var(--sides-padding);
-  padding-bottom: 160px;
+  padding: 80px var(--sides-padding) 160px var(--sides-padding);
 }
 
 main > h1 {
@@ -284,6 +283,8 @@ footer .footerPicBox img {
     padding-left: var(--tabletMargin);
     padding-right: var(--tabletMargin);
     padding-top: 40px;
+
+    padding-bottom: 0px;
   }
 
   header > * {
@@ -325,5 +326,9 @@ footer .footerPicBox img {
 
   header .icons{
     display: none;
+  }
+
+  main{
+    padding-top: 0px;
   }
 }

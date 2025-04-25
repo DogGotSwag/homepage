@@ -358,4 +358,10 @@ footer .footerPicBox img {
     row-gap: 60px;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   }
+
+
+  footer{
+    height: 90vh;
+    padding: 50px 45px 75px 65px;
+  }
 }

@@ -365,4 +365,10 @@ footer .footerPicBox img {
     height: 89vh;
     padding: 50px 45px 75px 65px;
   }
+
+  .contactInfo div > svg {
+    height: 32px;
+    margin-right: 10px;
+  }
+
 }

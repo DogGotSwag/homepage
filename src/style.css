@@ -170,7 +170,7 @@ main .projectArea {
   display: grid;
   column-gap: 65px;
   row-gap: 75px;
-  grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 main .projectBox {
@@ -332,6 +332,13 @@ footer .footerPicBox img {
     --sides:80px;
     padding: 0px var(--sides) 0px var(--sides);
   }
+/* 
+  main .projectArea {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
 
+  h2{
+
+  } */
 
 }

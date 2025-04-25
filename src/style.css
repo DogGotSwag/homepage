@@ -221,7 +221,7 @@ main .projectBox {
 
 footer {
   background-color: var(--headerAndFooterBg-Color);
-  min-height: 101vh;
+  height: 101vh;
   padding: var(--topBottom) var(--sides-padding);
 
   display: grid;
@@ -362,7 +362,7 @@ footer .footerPicBox img {
 
   footer{
     gap:40px;
-    height: 90vh;
+    height: 89vh;
     padding: 50px 45px 75px 65px;
   }
 }

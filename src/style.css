@@ -335,10 +335,10 @@ footer .footerPicBox img {
 /* 
   main .projectArea {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  }
+  } */
 
   h2{
-
-  } */
+    font-size: clamp(16px, 3vw, 20px);
+  } 
 
 }

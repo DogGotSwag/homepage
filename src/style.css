@@ -23,7 +23,7 @@ img {
 
 header {
   position: relative;
-  height: 109vh;
+  min-height: 109vh;
   padding: var(--topBottom) var(--sides-padding);
 
   display: flex;
@@ -288,6 +288,10 @@ footer .footerPicBox img {
 
   header > * {
     position: relative;
+  }
+
+  header .slant-container{
+    max-height: 100vh;
   }
 
   header .imgContainer {

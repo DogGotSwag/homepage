@@ -361,6 +361,7 @@ footer .footerPicBox img {
 
 
   footer{
+    gap:40px;
     height: 90vh;
     padding: 50px 45px 75px 65px;
   }

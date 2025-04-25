@@ -329,6 +329,9 @@ footer .footerPicBox img {
   }
 
   main{
-    padding-top: 0px;
+    --sides:80px;
+    padding: 0px var(--sides) 0px var(--sides);
   }
+
+
 }

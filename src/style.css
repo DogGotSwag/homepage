@@ -314,5 +314,8 @@ footer .footerPicBox img {
 
   header .aboutMeBox h1{
     text-align: center;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: clamp(40px, 4vw + 5px, 45px);
   }
 }

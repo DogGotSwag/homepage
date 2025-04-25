@@ -330,7 +330,7 @@ footer .footerPicBox img {
 
   main {
     --sides: 80px;
-    padding: 0px var(--sides) 0px var(--sides);
+    padding: 0px var(--sides) 285px var(--sides);
   }
 
   main .projectInfo {

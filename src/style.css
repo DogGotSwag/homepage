@@ -341,4 +341,8 @@ footer .footerPicBox img {
     font-size: clamp(16px, 3vw, 20px);
   } 
 
+  .projectArea svg {
+    height: 25px;
+  }
+
 }

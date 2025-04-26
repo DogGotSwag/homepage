@@ -379,4 +379,15 @@ footer .footerPicBox img {
     width: 45px;
   }
 
+  .contactInfo .spacedP{
+    margin-bottom: 30px;
+  }
+
+  .info:nth-child(odd){
+    margin-bottom: 10px;
+  }
+  .info:nth-child(even){
+    margin-bottom: 30px;
+  }
+
 }

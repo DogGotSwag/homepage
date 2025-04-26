@@ -366,6 +366,10 @@ footer .footerPicBox img {
     padding: 50px 45px 75px 65px;
   }
 
+  footer .contactInfo{
+    padding-top: 45px;
+  }
+
   .contactInfo div > svg {
     height: 32px;
     margin-right: 10px;

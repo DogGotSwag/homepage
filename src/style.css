@@ -398,9 +398,6 @@ footer .footerPicBox img {
 }
 
 @media (max-width: 500px){
-  *{
-    --headerAndFooterBg-Color: green;
-  }
 
   header{
     flex-direction: column;
@@ -426,5 +423,14 @@ footer .footerPicBox img {
   header .aboutMeBox h1{
     text-align: center;
     margin-bottom: 10px;
+  }
+
+  header .aboutMeBox .icons{
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .aboutMeBox svg{
+    width: 35px;
   }
 }

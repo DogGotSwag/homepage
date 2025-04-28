@@ -396,3 +396,22 @@ footer .footerPicBox img {
   }
 
 }
+
+@media (max-width: 500px){
+  *{
+    --headerAndFooterBg-Color: green;
+  }
+
+  header{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  header .imgContainer{
+    margin: 24px 30px;
+  }
+
+  /* header .slant-container {
+    height: 27%;
+  } */
+}

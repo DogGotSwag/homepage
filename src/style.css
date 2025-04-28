@@ -451,5 +451,26 @@ footer .footerPicBox img {
   main .projectArea {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
+
+  main .projectArea h2{
+    font-size: clamp(20px, 2vw, 25px);
+  }
+
+  .projectArea p {
+    font-size: clamp(16px, 1vw, 18px);
+  }
+
+  .projectArea svg {
+    height: 20px;
+  }
+
+  .projectArea .projectInfo{
+    padding: 10px 20px;
+  }
+
+  .projectInfo .titleAndLinks{
+    gap: 15px;
+    padding-left: 10px;
+  }
 }
 

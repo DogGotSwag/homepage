@@ -420,4 +420,9 @@ footer .footerPicBox img {
     margin: 0;
     box-shadow: none;
   }
+
+  header .aboutMeBox h1{
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }

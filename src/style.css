@@ -419,6 +419,8 @@ footer .footerPicBox img {
     padding: 0;
     margin: 0;
     box-shadow: none;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   header .aboutMeBox h1{

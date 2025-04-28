@@ -450,6 +450,7 @@ footer .footerPicBox img {
 
   main .projectArea {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding-bottom: 150px;
   }
 
   main .projectArea h2{

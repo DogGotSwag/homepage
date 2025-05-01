@@ -494,5 +494,9 @@ footer .footerPicBox img {
 
     font-size: clamp(30px, 12vw, 60px);
   }
+
+  .contactInfo svg {
+    display: none;
+  }
 }
 

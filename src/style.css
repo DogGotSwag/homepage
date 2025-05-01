@@ -461,7 +461,8 @@ footer .footerPicBox img {
     font-size: clamp(20px, 2vw, 25px);
   }
 
-  .projectArea p {
+  .projectArea p,
+  .contactInfo p  {
     font-size: clamp(16px, 1vw, 18px);
   }
 
@@ -504,15 +505,8 @@ footer .footerPicBox img {
     display: none;
   }
 
-  /* .contactInfo p {
-    font-size: clamp(16px, 1vw, 18px);
-  }
-
   .contactInfo h1 + p{
     font-size: clamp(19px, 6vw, 22px);
-  } */
+  }
 
 }
-
-
-

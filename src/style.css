@@ -490,7 +490,7 @@ footer .footerPicBox img {
 
   .contactInfo h1{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 15px;
 
     font-size: clamp(30px, 12vw, 60px);
@@ -501,12 +501,33 @@ footer .footerPicBox img {
     padding-right: 20px;
   }
 
+  .contactInfo .spacedP{
+    margin-bottom: 35px;
+  }
+
   .contactInfo .info svg {
     display: none;
   }
 
   .contactInfo h1 + p{
     font-size: clamp(19px, 6vw, 22px);
+  }
+
+  .info:nth-child(odd){
+    margin-bottom: 5px;
+  }
+  .info:nth-child(even){
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+
+  footer .footerIcons{
+    justify-content: center;
+    gap: 30px;
+  } 
+
+  footer .footerIcons svg{
+    width: 50px;
   }
 
 }

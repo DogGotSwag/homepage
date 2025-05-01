@@ -500,12 +500,19 @@ footer .footerPicBox img {
     padding-right: 20px;
   }
 
-  .contactInfo svg {
+  .contactInfo .info svg {
     display: none;
   }
 
-  /* .contactInfo h1 + p{
-    background-color: black;
+  /* .contactInfo p {
+    font-size: clamp(16px, 1vw, 18px);
+  }
+
+  .contactInfo h1 + p{
+    font-size: clamp(19px, 6vw, 22px);
   } */
+
 }
+
+
 

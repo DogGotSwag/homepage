@@ -495,8 +495,17 @@ footer .footerPicBox img {
     font-size: clamp(30px, 12vw, 60px);
   }
 
+  .contactInfo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .contactInfo svg {
     display: none;
   }
+
+  /* .contactInfo h1 + p{
+    background-color: black;
+  } */
 }
 

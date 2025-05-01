@@ -486,5 +486,13 @@ footer .footerPicBox img {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  .contactInfo h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+    font-size: clamp(30px, 12vw, 60px);
+  }
 }
 

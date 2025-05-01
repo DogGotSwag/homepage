@@ -170,7 +170,7 @@ main .projectArea {
   display: grid;
   column-gap: 65px;
   row-gap: 75px;
-  grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
 }
 
 main .projectBox {
@@ -406,6 +406,12 @@ footer .footerPicBox img {
 
   header .imgContainer{
     margin: 24px 30px;
+  }
+
+  header .textBehindImg{
+    white-space: wrap;
+    font-size: 18vw;
+    top: 79%;
   }
 
   header .slant-container {

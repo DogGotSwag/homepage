@@ -434,6 +434,10 @@ footer .footerPicBox img {
     width: 35px;
   }
 
+  .aboutMeBox p {
+    margin-bottom: 15px;
+  }
+
   main{
     padding: 0;
     margin: 0;

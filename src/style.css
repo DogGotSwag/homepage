@@ -477,5 +477,14 @@ footer .footerPicBox img {
     gap: 15px;
     padding-left: 10px;
   }
+
+
+  footer{
+    padding: 0;
+    gap: 0;
+    height: 150vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
